@@ -62,3 +62,12 @@ This repository is the canonical public owner of:
 - the certification harness exported by `@tetsuo-ai/plugin-kit`
 
 The private runtime host implementation remains in the private AgenC core.
+
+## Starter Template
+
+A minimal public starter for the currently supported extension class lives at:
+
+- `templates/channel-adapter-starter/`
+
+That template is intentionally limited to the current `channel_adapter`
+boundary and should not be treated as proof of broader plugin-class support.
