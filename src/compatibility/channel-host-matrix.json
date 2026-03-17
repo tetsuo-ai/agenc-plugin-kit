@@ -1,0 +1,8 @@
+[
+  {
+    "plugin_type": "channel_adapter",
+    "plugin_api_version": "1.0.0",
+    "host_api_version": "1.0.0",
+    "status": "supported"
+  }
+]
