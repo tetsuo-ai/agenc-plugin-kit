@@ -29,7 +29,7 @@ export function createChannelAdapter(): ChannelAdapter {
     async send() {
       return undefined;
     },
-    async isHealthy() {
+    isHealthy() {
       return true;
     },
   };

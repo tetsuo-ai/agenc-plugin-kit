@@ -57,7 +57,7 @@ async function main() {
       "    start: async () => {},",
       "    stop: async () => {},",
       "    send: async () => undefined,",
-      "    isHealthy: async () => true",
+      "    isHealthy: () => true",
       "  })",
       "};",
       "const certification = pluginKit.certifyChannelAdapterModule({ moduleExports: fixture, config: {} });",

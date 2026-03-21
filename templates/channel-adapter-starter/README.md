@@ -18,3 +18,11 @@ Broader plugin classes are not part of the public contract yet.
 3. Replace the manifest metadata and adapter behavior with your real channel.
 4. Run the certification helper from `@tetsuo-ai/plugin-kit` against your
    module before attempting host integration.
+
+## Runtime Shape Notes
+
+- `initialize`, `start`, `stop`, and `send` are async methods
+- `isHealthy` is synchronous and must return `boolean`
+- the starter is a minimal contract example, not a full production adapter
+
+For the complete public ABI, use [../../docs/PLUGIN_CONTRACT_REFERENCE.md](../../docs/PLUGIN_CONTRACT_REFERENCE.md).
