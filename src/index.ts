@@ -23,6 +23,7 @@ export {
 export {
   type ChannelAdapter,
   type ChannelAdapterContext,
+  type ChannelAdapterHostServices,
   type ChannelAdapterLogger,
   type ChannelAdapterModuleExports,
   type ChannelConfigValidationResult,

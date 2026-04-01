@@ -39,12 +39,17 @@ export interface ChannelOutboundMessage {
   readonly metadata?: Readonly<Record<string, unknown>>;
 }
 
+export interface ChannelAdapterHostServices {
+  readonly [key: string]: unknown;
+}
+
 export interface ChannelAdapterContext<
   TConfig extends Record<string, unknown> = Record<string, unknown>,
 > {
   readonly logger: ChannelAdapterLogger;
   readonly config: Readonly<TConfig>;
   readonly on_message: (message: ChannelInboundMessage) => Promise<void>;
+  readonly host_services?: Readonly<ChannelAdapterHostServices>;
 }
 
 export interface ChannelAdapter<
