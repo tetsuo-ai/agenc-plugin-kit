@@ -1,6 +1,6 @@
 {
   "name": "@tetsuo-ai/plugin-kit",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Public plugin authoring contract for AgenC hosted extensions",
   "packageManager": "npm@11.7.0",
   "type": "module",
